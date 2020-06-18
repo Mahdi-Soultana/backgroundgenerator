@@ -1,0 +1,35 @@
+body{
+	background: linear-gradient(to left, rgb(26, 26, 26), rgb(191, 238, 237));
+	font-family: "Montserrat";
+}
+h1{
+	font-size: 3em;
+
+}
+h3{
+	margin: 3% 3% ;
+	font-size: 1.3em;
+
+}
+#centers{
+	text-align: center;
+}
+
+#copie{
+	margin-bottom:3%; 
+	width: 55%;
+	background:transparent;
+	border:none;
+	box-shadow:transparent;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+#copie:focus{
+	font-size: 1.55em;
+	width: 56%;
+	outline: none;
+
+	border-bottom:solid #ff7600 2px;
+}
+#copie::selection { background: #f7a494; }
