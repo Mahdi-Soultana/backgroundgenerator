@@ -1,16 +1,22 @@
 body{
-	background: linear-gradient(to left, rgb(26, 0,0), rgb(191, 238, 237));
+	background: linear-gradient(to left, rgb(38, 104, 146), rgb(214, 97, 210));
 	font-family: "Montserrat";
 }
-h1{
-	font-size: 3em;
+#color2,#color1{
+	margin:3% 1%;
+}
+#centers>p{
+	font-size: 4em;
+	 margin-top: 4%;
 
 }
 h3{
 	margin: 3% 3% ;
+	
 	font-size: 1.3em;
 
 }
+
 #centers{
 	text-align: center;
 }
@@ -27,7 +33,7 @@ h3{
 }
 #copie:focus{
 	font-size: 1.55em;
-	width: 56%;
+	width: 58%;
 	outline: none;
 
 	border-bottom:solid #ff7600 2px;
